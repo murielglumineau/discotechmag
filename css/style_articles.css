@@ -1,0 +1,62 @@
+#content{
+    height:1200px;
+}
+
+#block_articles{
+    
+    
+}
+
+
+
+.article_case{
+    height:300px  ;
+    width:410px ;
+    margin-top: 60px;
+    background-color: #212121;
+}
+
+.article_case:hover{
+        transform: scale(1.03);
+
+}
+
+#art_001{
+    float:left;
+    margin-top: 0px;
+    margin-left: 90px;
+    background-color: white;
+    background-image: url(../images/premiers_morceaux.png)
+
+}
+
+#art_002{
+    float:right;
+    margin-top: 0px;
+    margin-right: 90px;
+
+}
+
+#art_003{
+    float:left;
+    margin-left: 90px;
+
+}
+
+#art_004{
+    float:right;
+    margin-right: 90px;
+
+}
+
+#art_005{
+    float:left;
+    margin-left: 90px;
+
+}
+
+#art_006{
+    float:right;
+    margin-right: 90px;
+
+}

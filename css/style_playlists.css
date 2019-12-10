@@ -1,0 +1,41 @@
+#content{
+    height: 1200px;
+}
+
+iframe{
+ height: 350px;
+ width: 850px;
+ border: none;
+ float: left;
+ margin-left: 80px;  
+ margin-top: 80px; 
+}
+
+#songlist_01 iframe{
+    margin-top: -0px;
+}
+
+#content aside{
+    height:180px ;
+    width:350px ;
+    background-color:white;
+    margin-right: 50px;
+    float: right;
+    
+}
+
+#songlist_01 aside{
+    margin-top: 50px;
+    
+}
+
+#songlist_02 aside{
+    margin-top: 130px;
+
+    
+}
+
+#songlist_03 aside{
+    margin-top: 130px;
+
+}

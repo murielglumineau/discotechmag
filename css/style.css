@@ -1,0 +1,242 @@
+@font-face{
+    font-family: 'Aileron thin';
+    src: url('../fonts/aileron/Aileron-Thin.otf') format("opentype");
+    
+}
+html{
+    background-color: ;
+}
+body{
+    background-color: #3d393b;
+    font-family: 'aileron', arial;
+
+}
+
+#global{
+    zoom:88%;
+    background-color: #212121;
+    box-shadow: 1px;
+    width: 1100px;
+    height: auto;
+    position: absolute; /* on extrait l'élement HTML du flux HTMl*/
+    left: 50%;
+    margin-left:-550px;
+        
+
+    
+}
+
+#social {
+    background-color: black;
+    opacity: 0.85;
+    width: 1100px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: auto;
+}
+ 
+img{
+    width: 540px ;
+    height:540px ;
+    margin-top: -155px;
+    margin-left: -20px;
+}
+
+/*PARTIE MENU  */
+
+.net_icon{
+    height:25px ;
+    width:25px ;
+    float: right;
+    margin-top: 12px;
+    margin-right: 100px;
+    
+}
+#menu{
+    background-color: #fabdbd;
+    height: 230px;
+}
+
+#rect_button{
+    width: 600px;
+    height:220px ;
+    background-color:black;
+        opacity: 0.9;
+
+    float: right;
+    margin-top: -389px;
+}
+nav ul li button a{
+    color: white;
+    font-size: 22px;
+    font-family: 'Aileron thin', arial;
+    
+}
+nav ul li button {
+    height:70px;
+    width:126px;
+    background-color: black;
+    border-style: hidden;
+    margin-top: -16px;
+    margin-right: 15px;
+}
+
+nav ul li button:hover{
+    background-color: #e4ff09;
+}
+
+nav ul li button a:hover{
+   color: black;
+}
+
+
+nav ul li{
+    list-style: none;
+    display: inline;
+      
+}
+
+#button #first{
+    margin-left: -15px;
+    background-color: white;
+}
+
+#button #first:hover{
+   background-color:#fabdbd ;
+}
+
+#button #last{
+    margin-left: -10px;
+    background-color:#e4ff09 ;
+}
+
+#button #last:hover{
+   background-color:white;
+}
+
+#button #last a{
+    color:#cd2424 ;
+}
+
+#button #first a{
+    color:black;
+}
+
+/* BARRE ROUGE*/
+#barre{
+    width: 1100px;
+    height: 26px;
+    background-color: #cd2424;
+    margin-top: 10px;
+}
+
+/* CONTENT */
+
+#content{
+    height: 1000px;
+}
+#article:hover{
+    transform: scale(1.05);
+}
+#back_article{
+    height:480px;
+    width:710px ;
+    background-color: #29f3e2;
+    margin-top: 150px;
+}
+
+#news{
+    height:460px;
+    width:670px ;
+    background-color:#414141 ;
+    margin-top:-460px ;
+    margin-left: 40px;
+    float: left;
+}
+
+#news img{
+    height:460px;
+    width:670px;
+    margin-top: 0px;
+    margin-left:0px ;
+}
+article{
+    font-family: 'Aileron thin', arial;
+    font-size: 1.3em;
+    color: white;
+}
+
+#back_aside{
+   height:530px;
+    width:300px ;
+    background-color:#29f3e2 ;
+    float: right;
+    margin-top: -540px;
+        clear: both;
+
+}
+
+#actu:hover{
+    transform: scale(1.05);
+}
+
+iframe{
+    height:300px;
+    width:280px ;
+}
+#actu_content{
+   height:480px;
+    width:290px;
+    background-color:white; 
+    margin-top:-500px ;
+    float: right;
+        clear: both;
+
+    
+}
+
+aside{
+    font-family: 'Aileron thin', arial;
+    font-size: 1.3em;
+    color: black;
+    
+}
+
+
+#article #rect_title{
+   height:50px ; 
+   width:240px ;  
+   margin-top: -45px;
+    margin-left: 170px;
+   background-color: #ef6e1e ;
+   float: left;    
+}
+
+
+#actu #rect_title{
+    height:60px ; 
+   width:210px ; 
+    background-color: #ef6e1e;
+    margin-top: -580px;
+margin-left: 820px;    
+    position: absolute;
+}
+
+#rect_title h4{
+    font-family: 'Aileron thin', arial;
+    font-size:1.5em;
+    padding-left: 15px;
+    margin-top: 10px;
+    color:black;
+}
+
+/*FOOTER*/
+
+#footer{
+    width:1100px;
+    height:220px ;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
